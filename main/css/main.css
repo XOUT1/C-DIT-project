@@ -10,8 +10,8 @@ body {
 }
 
 .nav-link {
-     font-size: 14px !important;
-     background: #000 !important;
+     font-size: 12px !important;
+     background: transparent !important;
      font-family: Lato, sans-serif !important;
      text-transform: capitalize !important;
  }
