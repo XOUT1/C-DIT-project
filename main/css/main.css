@@ -11,6 +11,7 @@ body {
 
 .nav-link {
      font-size: 12px !important;
+     justify-content: space-between;
      background: transparent !important;
      font-family: Lato, sans-serif !important;
      text-transform: capitalize !important;

@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+body {
+    height: 100vh;
+    widows: 100%;
+    background: #1D1E28;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    background: #039edb;
+    border-radius: 15px;
+}
+.box h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.box .input-bx {
+    position: relative;
+}
+.box .input-bx input {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.box .input-bx label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #726c7c;
+    letter-spacing: 1px;
+    padding: 12px 0;
+    font-size: 16px;
+    transition: .4s;
+}
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #0df5ef;
+    color: #1D1E28;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.box input[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+.box .input-bx input:focus ~ label,
+.box .input-bx input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #0df5ef;
+    font-size: 12px;
+}

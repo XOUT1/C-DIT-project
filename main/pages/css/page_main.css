@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #1a1c91 solid !important;
+    font-size: 16px;
+}
+
+.nav-link {
+    font-size: 12px !important;
+    background: transparent !important;
+    font-family: Lato, sans-serif !important;
+    text-transform: capitalize !important;
+}
+
+.nav-link:hover {
+    background: transparent !important;
+    color: #AD91FF !important;
+    font-weight: bold !important;
+}
