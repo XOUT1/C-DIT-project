@@ -166,3 +166,54 @@ p {
     padding: 340px;
     width: calc(90% - 100px);
   }
+
+.table {
+    width: 700px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);  
+    padding: 9%;
+}
+table, th, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th {
+    color: black;
+    background: pink;
+}
+h4 {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    margin: 25px 42%;
+    width: calc(55% - 99px)
+}
+h4::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 20%;
+    transform: translate(-50%);
+    animation: animate 4s linear infinite;
+    
+}
+@keyframes animate {
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
