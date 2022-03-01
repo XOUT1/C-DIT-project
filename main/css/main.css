@@ -39,23 +39,6 @@ header {
     align-items: center;
     padding: 20px 20%;
 }
-h1 {
-    color: aliceblue;
-    font-weight: normal;
-    font-size: 35px;
-    position: relative;
-    margin: 40px 0;
-}
-h1::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: crimson;
-    bottom: -10px;
-    left: 50%;
-    transform: translate(-50%);
-}
 .photo-gallery {
     width: 90%;
     margin: auto;
@@ -87,3 +70,99 @@ button {
 button:hover {
     background-color: rgba(0,136,169,1);
 }
+h5 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    position: relative;
+    margin: 3px 0;
+}
+h5::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+.side {
+    width: 250px;
+    align-items: calc(-50%, 10%);
+    vertical-align: auto;
+    border-radius: 8px;
+}
+.side2 {
+    width: 250px;
+    vertical-align: auto;
+    border-radius: 8px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+    position: absolute;
+    left: 350px;
+    font-size: 20px;
+    padding: 30px;
+    width: calc(50% - 100px);
+}
+p {
+    color: #fff;
+    font-family: courier;
+    position: absolute;
+    left: 350px;
+    font-size: 100%;
+    padding: 70px;
+    width: calc(70% - 100px);
+  }
+.second h2 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+    position: absolute;
+    left: 177px;
+    font-size: 20px;
+    padding: 200px;
+    width: calc(50% - 100px)
+}
+.second p {
+    color: #fff;
+    font-family: courier;
+    position: absolute;
+    left: 170px;
+    font-size: 100%;
+    padding: 230px;
+    width: calc(90% - 100px);
+  }
+  .third h2 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+    position: absolute;
+    left: 65px;
+    font-size: 20px;
+    padding: 310px;
+    width: calc(100% - 100px)
+}
+.third p {
+    color: #fff;
+    font-family: courier;
+    position: absolute;
+    left: 60px;
+    font-size: 100%;
+    padding: 340px;
+    width: calc(90% - 100px);
+  }
