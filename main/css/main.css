@@ -289,3 +289,7 @@ h4::before {
     animation: animate 4s linear infinite;
     
 }
+.about p {
+    font-family: 'Poppins', sans-serif !important;
+    left: 300px;
+}

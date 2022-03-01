@@ -1,0 +1,7 @@
+iframe {
+    width: 600px;
+    height: 100;
+    margin: 0 auto;
+    margin: 5px 30%;
+    width: calc(55% - 99px)
+}
