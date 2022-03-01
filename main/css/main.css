@@ -217,3 +217,75 @@ h4::before {
         width: 100px;
     }
 }
+
+
+.services h4 {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    margin: 5px 48%;
+    width: calc(55% - 99px)
+}
+.services h4::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 10%;
+    transform: translate(-50%);
+    animation: animate 4s linear infinite;
+    
+}
+
+.secondserv h2 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+    position: absolute;
+    left: 225px;
+    font-size: 20px;
+    padding: 150px;
+    width: calc(50% - 100px)
+    }
+
+.secondserv p {
+    color: #fff;
+    font-family: courier;
+    position: absolute;
+    left: 200px;
+    font-size: 100%;
+    padding: 190px;
+    width: calc(90% - 100px);
+}
+
+.photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    padding: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.container h4 {
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    margin: 5px 30%;
+    width: calc(55% - 99px)
+}
+.container h4::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: animate 4s linear infinite;
+    
+}
