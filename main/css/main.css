@@ -9,12 +9,12 @@
 }
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: #1D1E28;
+    background-color:#8a8be2;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #1a1c91 solid !important;
+    border-top: 6px #6b5b95 solid !important;
     font-size: 16px;
 }
 .container {
@@ -71,7 +71,7 @@ button:hover {
     background-color: rgba(0,136,169,1);
 }
 h5 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-weight: normal;
@@ -289,7 +289,7 @@ h4::before {
     animation: animate 4s linear infinite;
     
 }
-.about p {
+.head p {
     font-family: 'Poppins', sans-serif !important;
     left: 300px;
 }
